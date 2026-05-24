@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "CeraVe Hydrating Facial Cleanser",
+    "category": "cleanser",
+    "skin_types": ["dry", "sensitive", "normal"],
+    "concerns": ["dehydration"],
+    "budget": "low",
+    "price": 15.99,
+    "key_ingredients": ["Ceramides", "Hyaluronic Acid", "Glycerin"],
+    "image_url": "/images/products/cerave-cleanser.jpg"
+  },
+  {
+    "id": 2,
+    "name": "La Roche-Posay Effaclar Gel Cleanser",
+    "category": "cleanser",
+    "skin_types": ["oily", "combination"],
+    "concerns": ["acne"],
+    "budget": "low",
+    "price": 14.99,
+    "key_ingredients": ["Zinc PCA", "Glycerin"],
+    "image_url": "/images/products/lrp-effaclar.jpg"
+  },
+  {
+    "id": 3,
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "category": "serum",
+    "skin_types": ["oily", "combination", "normal"],
+    "concerns": ["acne", "dullness", "hyperpigmentation"],
+    "budget": "low",
+    "price": 5.90,
+    "key_ingredients": ["Niacinamide", "Zinc"],
+    "image_url": "/images/products/to-niacinamide.jpg"
+  },
+  {
+    "id": 4,
+    "name": "The Ordinary Hyaluronic Acid 2% + B5",
+    "category": "serum",
+    "skin_types": ["dry", "combination", "normal", "sensitive"],
+    "concerns": ["dehydration", "dullness"],
+    "budget": "low",
+    "price": 6.80,
+    "key_ingredients": ["Hyaluronic Acid", "Panthenol"],
+    "image_url": "/images/products/to-ha.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Paula's Choice 2% BHA Liquid Exfoliant",
+    "category": "exfoliant",
+    "skin_types": ["oily", "combination", "normal"],
+    "concerns": ["acne", "dullness", "hyperpigmentation"],
+    "budget": "medium",
+    "price": 32.00,
+    "key_ingredients": ["Salicylic Acid", "Green Tea"],
+    "image_url": "/images/products/pc-bha.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Skinceuticals C E Ferulic",
+    "category": "serum",
+    "skin_types": ["normal", "dry", "combination"],
+    "concerns": ["aging", "dullness", "hyperpigmentation"],
+    "budget": "luxury",
+    "price": 182.00,
+    "key_ingredients": ["Vitamin C", "Vitamin E", "Ferulic Acid"],
+    "image_url": "/images/products/skinceuticals-ce.jpg"
+  },
+  {
+    "id": 7,
+    "name": "The Ordinary Retinol 0.5% in Squalane",
+    "category": "treatment",
+    "skin_types": ["normal", "oily", "combination"],
+    "concerns": ["aging", "acne", "hyperpigmentation"],
+    "budget": "low",
+    "price": 5.80,
+    "key_ingredients": ["Retinol", "Squalane"],
+    "image_url": "/images/products/to-retinol.jpg"
+  },
+  {
+    "id": 8,
+    "name": "La Roche-Posay Anthelios SPF 50",
+    "category": "sunscreen",
+    "skin_types": ["all"],
+    "concerns": ["aging", "hyperpigmentation"],
+    "budget": "medium",
+    "price": 33.50,
+    "key_ingredients": ["Mexoryl SX", "Mexoryl XL"],
+    "image_url": "/images/products/lrp-sunscreen.jpg"
+  },
+  {
+    "id": 9,
+    "name": "CeraVe Moisturizing Cream",
+    "category": "moisturizer",
+    "skin_types": ["dry", "normal", "sensitive"],
+    "concerns": ["dehydration"],
+    "budget": "low",
+    "price": 16.99,
+    "key_ingredients": ["Ceramides", "Hyaluronic Acid", "Petrolatum"],
+    "image_url": "/images/products/cerave-cream.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Neutrogena Hydro Boost Gel-Cream",
+    "category": "moisturizer",
+    "skin_types": ["oily", "combination", "normal"],
+    "concerns": ["dehydration", "dullness"],
+    "budget": "low",
+    "price": 19.99,
+    "key_ingredients": ["Hyaluronic Acid", "Glycerin"],
+    "image_url": "/images/products/neutrogena-hydroboost.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Drunk Elephant Protini Polypeptide Cream",
+    "category": "moisturizer",
+    "skin_types": ["all"],
+    "concerns": ["aging", "dehydration"],
+    "budget": "high",
+    "price": 68.00,
+    "key_ingredients": ["Peptides", "Pygmy Waterlily", "Soybean Folic Acid Ferment Extract"],
+    "image_url": "/images/products/de-protini.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Laneige Water Sleeping Mask",
+    "category": "mask",
+    "skin_types": ["dry", "normal", "combination"],
+    "concerns": ["dehydration", "dullness"],
+    "budget": "medium",
+    "price": 28.00,
+    "key_ingredients": ["Hydro Ionized Mineral Water", "Sleeping Microbiome"],
+    "image_url": "/images/products/laneige-mask.jpg"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "category": "skin_type",
+    "question": "How does your skin feel a few hours after washing your face?",
+    "options": [
+      {"id": "a", "text": "Tight and dry", "scores": {"dry": 3, "oily": 0, "combination": 1, "sensitive": 1, "normal": 0}},
+      {"id": "b", "text": "Shiny and greasy all over", "scores": {"dry": 0, "oily": 3, "combination": 1, "sensitive": 0, "normal": 0}},
+      {"id": "c", "text": "Oily in the T-zone, dry on cheeks", "scores": {"dry": 0, "oily": 1, "combination": 3, "sensitive": 0, "normal": 0}},
+      {"id": "d", "text": "Comfortable and balanced", "scores": {"dry": 0, "oily": 0, "combination": 0, "sensitive": 0, "normal": 3}},
+      {"id": "e", "text": "Irritated or red", "scores": {"dry": 1, "oily": 0, "combination": 0, "sensitive": 3, "normal": 0}}
+    ]
+  },
+  {
+    "id": 2,
+    "category": "skin_type",
+    "question": "How often do you experience breakouts?",
+    "options": [
+      {"id": "a", "text": "Rarely or never", "scores": {"dry": 2, "oily": 0, "combination": 0, "sensitive": 1, "normal": 2}},
+      {"id": "b", "text": "Frequently, especially on forehead and nose", "scores": {"dry": 0, "oily": 3, "combination": 2, "sensitive": 0, "normal": 0}},
+      {"id": "c", "text": "Occasionally, mostly around my period", "scores": {"dry": 0, "oily": 1, "combination": 2, "sensitive": 1, "normal": 1}},
+      {"id": "d", "text": "Often, and they leave red marks", "scores": {"dry": 0, "oily": 2, "combination": 1, "sensitive": 2, "normal": 0}}
+    ]
+  },
+  {
+    "id": 3,
+    "category": "skin_type",
+    "question": "How does your skin react to new products?",
+    "options": [
+      {"id": "a", "text": "Usually fine, no issues", "scores": {"dry": 0, "oily": 1, "combination": 1, "sensitive": 0, "normal": 3}},
+      {"id": "b", "text": "Sometimes gets red or itchy", "scores": {"dry": 1, "oily": 0, "combination": 0, "sensitive": 3, "normal": 0}},
+      {"id": "c", "text": "Tends to break out more", "scores": {"dry": 0, "oily": 3, "combination": 1, "sensitive": 1, "normal": 0}},
+      {"id": "d", "text": "Feels drier or flaky", "scores": {"dry": 3, "oily": 0, "combination": 1, "sensitive": 1, "normal": 0}}
+    ]
+  },
+  {
+    "id": 4,
+    "category": "concerns",
+    "question": "What is your primary skin concern?",
+    "options": [
+      {"id": "a", "text": "Fine lines and wrinkles", "scores": {"aging": 3, "acne": 0, "hyperpigmentation": 0, "dehydration": 1, "dullness": 1}},
+      {"id": "b", "text": "Acne and blemishes", "scores": {"aging": 0, "acne": 3, "hyperpigmentation": 1, "dehydration": 0, "dullness": 0}},
+      {"id": "c", "text": "Dark spots and uneven tone", "scores": {"aging": 1, "acne": 0, "hyperpigmentation": 3, "dehydration": 0, "dullness": 1}},
+      {"id": "d", "text": "Dryness and dehydration", "scores": {"aging": 1, "acne": 0, "hyperpigmentation": 0, "dehydration": 3, "dullness": 1}},
+      {"id": "e", "text": "Dull, lackluster complexion", "scores": {"aging": 0, "acne": 0, "hyperpigmentation": 1, "dehydration": 1, "dullness": 3}}
+    ]
+  },
+  {
+    "id": 5,
+    "category": "concerns",
+    "question": "How would you describe your pores?",
+    "options": [
+      {"id": "a", "text": "Barely visible", "scores": {"aging": 1, "acne": 0, "hyperpigmentation": 0, "dehydration": 2, "dullness": 1}},
+      {"id": "b", "text": "Large and often clogged", "scores": {"aging": 0, "acne": 3, "hyperpigmentation": 0, "dehydration": 0, "dullness": 0}},
+      {"id": "c", "text": "Visible mostly on nose and forehead", "scores": {"aging": 0, "acne": 2, "hyperpigmentation": 0, "dehydration": 0, "dullness": 1}},
+      {"id": "d", "text": "Normal sized, not a concern", "scores": {"aging": 0, "acne": 0, "hyperpigmentation": 0, "dehydration": 0, "dullness": 0}}
+    ]
+  },
+  {
+    "id": 6,
+    "category": "lifestyle",
+    "question": "How much water do you drink daily?",
+    "options": [
+      {"id": "a", "text": "Less than 4 glasses", "scores": {"hydration_need": 3, "lifestyle_good": 0}},
+      {"id": "b", "text": "4-6 glasses", "scores": {"hydration_need": 2, "lifestyle_good": 1}},
+      {"id": "c", "text": "6-8 glasses", "scores": {"hydration_need": 1, "lifestyle_good": 2}},
+      {"id": "d", "text": "More than 8 glasses", "scores": {"hydration_need": 0, "lifestyle_good": 3}}
+    ]
+  },
+  {
+    "id": 7,
+    "category": "lifestyle",
+    "question": "How many hours of sleep do you typically get?",
+    "options": [
+      {"id": "a", "text": "Less than 5 hours", "scores": {"sleep_deprived": 3, "lifestyle_good": 0}},
+      {"id": "b", "text": "5-6 hours", "scores": {"sleep_deprived": 2, "lifestyle_good": 1}},
+      {"id": "c", "text": "7-8 hours", "scores": {"sleep_deprived": 0, "lifestyle_good": 3}},
+      {"id": "d", "text": "More than 8 hours", "scores": {"sleep_deprived": 0, "lifestyle_good": 2}}
+    ]
+  },
+  {
+    "id": 8,
+    "category": "routine",
+    "question": "What does your current skincare routine look like?",
+    "options": [
+      {"id": "a", "text": "Just water or face wash", "scores": {"routine_level": "minimal"}},
+      {"id": "b", "text": "Cleanser + moisturizer", "scores": {"routine_level": "basic"}},
+      {"id": "c", "text": "Cleanser + serum + moisturizer + SPF", "scores": {"routine_level": "intermediate"}},
+      {"id": "d", "text": "Full multi-step routine with actives", "scores": {"routine_level": "advanced"}}
+    ]
+  },
+  {
+    "id": 9,
+    "category": "routine",
+    "question": "Do you wear sunscreen daily?",
+    "options": [
+      {"id": "a", "text": "Never", "scores": {"spf_need": 3}},
+      {"id": "b", "text": "Only when it's sunny", "scores": {"spf_need": 2}},
+      {"id": "c", "text": "Most days", "scores": {"spf_need": 1}},
+      {"id": "d", "text": "Every single day, rain or shine", "scores": {"spf_need": 0}}
+    ]
+  },
+  {
+    "id": 10,
+    "category": "preferences",
+    "question": "What's your budget range for skincare products?",
+    "options": [
+      {"id": "a", "text": "Budget-friendly (under $20 per product)", "scores": {"budget": "low"}},
+      {"id": "b", "text": "Mid-range ($20-$50 per product)", "scores": {"budget": "medium"}},
+      {"id": "c", "text": "Premium ($50-$100 per product)", "scores": {"budget": "high"}},
+      {"id": "d", "text": "Luxury (no budget limit)", "scores": {"budget": "luxury"}}
+    ]
+  }
+]

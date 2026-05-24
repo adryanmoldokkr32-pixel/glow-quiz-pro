@@ -1,0 +1,139 @@
+{
+  "skin_types": {
+    "dry": {
+      "name": "Dry Skin",
+      "description": "Your skin tends to feel tight, flaky, or rough. It lacks natural oils and needs extra hydration and nourishment.",
+      "tips": [
+        "Use a gentle, cream-based cleanser",
+        "Layer hydrating serums (hyaluronic acid)",
+        "Apply a rich moisturizer morning and night",
+        "Avoid harsh exfoliants and alcohol-based toners",
+        "Consider a facial oil as the last step"
+      ],
+      "key_ingredients": ["Hyaluronic Acid", "Ceramides", "Squalane", "Shea Butter", "Glycerin"],
+      "avoid_ingredients": ["Alcohol Denat", "Salicylic Acid (high %)", "Benzoyl Peroxide", "Retinol (start low)"]
+    },
+    "oily": {
+      "name": "Oily Skin",
+      "description": "Your skin produces excess sebum, leading to shine, enlarged pores, and potential breakouts. The good news: oily skin ages slower!",
+      "tips": [
+        "Use a gel or foam cleanser twice daily",
+        "Don't skip moisturizer — use a lightweight, oil-free one",
+        "Incorporate niacinamide to regulate sebum",
+        "Use clay masks weekly",
+        "Blotting papers are your friend"
+      ],
+      "key_ingredients": ["Niacinamide", "Salicylic Acid", "Zinc", "Tea Tree", "Kaolin Clay"],
+      "avoid_ingredients": ["Heavy Oils", "Coconut Oil", "Rich Butters", "Petrolatum"]
+    },
+    "combination": {
+      "name": "Combination Skin",
+      "description": "Your T-zone (forehead, nose, chin) tends to be oily while your cheeks are normal to dry. You need a balanced approach.",
+      "tips": [
+        "Use a gentle, balanced cleanser",
+        "Apply lighter products on T-zone, richer on cheeks",
+        "Multi-mask: clay on T-zone, hydrating on cheeks",
+        "Look for gel-cream moisturizers",
+        "Niacinamide works great for balancing"
+      ],
+      "key_ingredients": ["Niacinamide", "Hyaluronic Acid", "Green Tea", "Centella Asiatica", "Aloe Vera"],
+      "avoid_ingredients": ["Very Heavy Creams", "Harsh Sulfates", "High % Alcohol"]
+    },
+    "sensitive": {
+      "name": "Sensitive Skin",
+      "description": "Your skin reacts easily to products and environmental factors. Redness, stinging, and irritation are common. Gentle is key.",
+      "tips": [
+        "Patch test every new product",
+        "Stick to fragrance-free formulations",
+        "Use a minimal routine with proven gentle ingredients",
+        "Avoid hot water on your face",
+        "Look for products labeled 'for sensitive skin'"
+      ],
+      "key_ingredients": ["Centella Asiatica", "Aloe Vera", "Oat Extract", "Allantoin", "Panthenol"],
+      "avoid_ingredients": ["Fragrance", "Essential Oils", "Alcohol", "Witch Hazel", "Strong Acids"]
+    },
+    "normal": {
+      "name": "Normal Skin",
+      "description": "Lucky you! Your skin is well-balanced with minimal concerns. Focus on maintenance and prevention.",
+      "tips": [
+        "Maintain your routine — consistency is key",
+        "Focus on prevention with antioxidants and SPF",
+        "You can experiment with most product types",
+        "Don't over-complicate your routine",
+        "Prioritize sunscreen above all"
+      ],
+      "key_ingredients": ["Vitamin C", "Retinol", "Peptides", "Antioxidants", "SPF"],
+      "avoid_ingredients": ["Nothing specific — just avoid over-exfoliating"]
+    }
+  },
+  "concerns": {
+    "aging": {
+      "name": "Anti-Aging",
+      "description": "Focus on boosting collagen, increasing cell turnover, and protecting against further damage.",
+      "recommended_products": [
+        {"name": "Retinol Serum", "usage": "PM, 2-3x per week to start", "budget": "medium"},
+        {"name": "Vitamin C Serum", "usage": "AM, daily under SPF", "budget": "medium"},
+        {"name": "Peptide Cream", "usage": "PM, daily", "budget": "high"},
+        {"name": "SPF 50 Sunscreen", "usage": "AM, daily (non-negotiable)", "budget": "low"}
+      ]
+    },
+    "acne": {
+      "name": "Acne & Blemishes",
+      "description": "Target bacteria, unclog pores, and reduce inflammation without over-drying.",
+      "recommended_products": [
+        {"name": "Salicylic Acid Cleanser", "usage": "PM, daily", "budget": "low"},
+        {"name": "Niacinamide Serum", "usage": "AM & PM, daily", "budget": "low"},
+        {"name": "Benzoyl Peroxide Spot Treatment", "usage": "PM, on active spots only", "budget": "low"},
+        {"name": "Lightweight Moisturizer", "usage": "AM & PM, daily", "budget": "low"}
+      ]
+    },
+    "hyperpigmentation": {
+      "name": "Dark Spots & Uneven Tone",
+      "description": "Brighten existing dark spots and prevent new ones from forming.",
+      "recommended_products": [
+        {"name": "Vitamin C Serum (15-20%)", "usage": "AM, daily", "budget": "medium"},
+        {"name": "Alpha Arbutin Serum", "usage": "AM & PM, daily", "budget": "low"},
+        {"name": "AHA Exfoliant (Glycolic Acid)", "usage": "PM, 2-3x per week", "budget": "medium"},
+        {"name": "SPF 50 Sunscreen", "usage": "AM, daily (critical for pigmentation)", "budget": "low"}
+      ]
+    },
+    "dehydration": {
+      "name": "Dehydration & Dryness",
+      "description": "Restore your skin's moisture barrier and lock in hydration at every step.",
+      "recommended_products": [
+        {"name": "Hydrating Toner/Essence", "usage": "AM & PM, after cleansing", "budget": "low"},
+        {"name": "Hyaluronic Acid Serum", "usage": "AM & PM, on damp skin", "budget": "low"},
+        {"name": "Ceramide Moisturizer", "usage": "AM & PM, daily", "budget": "medium"},
+        {"name": "Sleeping Mask", "usage": "PM, 2-3x per week", "budget": "medium"}
+      ]
+    },
+    "dullness": {
+      "name": "Dull & Lackluster Skin",
+      "description": "Boost radiance with exfoliation, antioxidants, and glow-enhancing ingredients.",
+      "recommended_products": [
+        {"name": "Vitamin C Serum", "usage": "AM, daily", "budget": "medium"},
+        {"name": "AHA/BHA Exfoliant", "usage": "PM, 2-3x per week", "budget": "low"},
+        {"name": "Niacinamide Serum", "usage": "AM & PM, daily", "budget": "low"},
+        {"name": "Hydrating Face Mist", "usage": "Throughout the day", "budget": "low"}
+      ]
+    }
+  },
+  "routines": {
+    "minimal": {
+      "am": ["Gentle Cleanser", "Moisturizer with SPF"],
+      "pm": ["Gentle Cleanser", "Moisturizer"]
+    },
+    "basic": {
+      "am": ["Gentle Cleanser", "Moisturizer", "Sunscreen SPF 30+"],
+      "pm": ["Gentle Cleanser", "Treatment/Serum", "Moisturizer"]
+    },
+    "intermediate": {
+      "am": ["Gentle Cleanser", "Toner", "Vitamin C Serum", "Moisturizer", "Sunscreen SPF 50"],
+      "pm": ["Double Cleanse (Oil + Water)", "Toner", "Treatment Serum", "Moisturizer", "Face Oil (optional)"]
+    },
+    "advanced": {
+      "am": ["Gentle Cleanser", "Hydrating Toner", "Antioxidant Serum", "Eye Cream", "Moisturizer", "Sunscreen SPF 50"],
+      "pm": ["Double Cleanse", "Exfoliating Toner (alternating nights)", "Essence", "Retinol/Treatment", "Eye Cream", "Night Cream", "Sleeping Mask (2-3x/week)"]
+    }
+  }
+}
